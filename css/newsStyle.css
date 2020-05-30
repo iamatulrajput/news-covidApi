@@ -1,0 +1,112 @@
+#menu .navbar
+{
+    background-color: lightskyblue !important;
+    height: 70px;
+}
+#menu .navbar-brand 
+{
+    color: white;
+font-size: 24px;   
+    margin-right: 50px;
+} 
+
+#menu .nav-link
+{  
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0 10px;
+ border-bottom:3px solid transparent ;  
+    
+}
+#menu .nav-link:hover
+{
+
+
+
+border-bottom:  3px solid gray ;
+
+
+}
+#result .output
+
+{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    text-align:start ;
+    width: 1100px;
+    padding:20px 0;
+    margin: 0 auto; 
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+.output h6
+{
+    padding:0 ;
+}
+
+#result img
+{
+    height: 200px;
+    width: 40%;
+    border-radius: 5%;
+    text-align: center;
+}
+#covidGlobal
+{
+    background-color: aliceblue;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+
+#covidIndia
+{
+    padding-top: 4px;
+    background-color: aliceblue;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+
+#weather
+{
+
+width: 500px;
+height: 60px;
+margin-left: 20px;
+}
+
+#weather input
+{
+    border-radius: 5px;
+    border-style: none;
+    width: 150px;
+    margin: 15px 0;    
+}
+#weatherResult 
+{   font-size: 16px;
+    
+    font-family:  'Arial Narrow';
+    padding: 2px;
+    height: 60px;
+    width: 300px;
+    position: relative;
+    top:-60px;
+    left: 160px;
+} 
+
+#weatherResult img
+{
+    width:40px;
+    height: 30px;
+
+}

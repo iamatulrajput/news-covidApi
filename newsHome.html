@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Api</title>
+    
+    <link rel="stylesheet" href="./css/newsStyle.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+    <section>
+        <article id="menu">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#"><span><i class="fad fa-newspaper "></i> ExpessNews</span></a>
+                <button class="navbar-toggler" type="button"
+                 data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                  aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                
+                   
+                    <a class="nav-item nav-link  " href="#" id="home">Home</span></a>
+                    <a class="nav-item nav-link" href="#" id="business">Business</a>
+                    <a class="nav-item nav-link" href="#" id="entertainment">Entertainment</a>
+                    <a class="nav-item nav-link" href="#" id="health">Health</a>
+                    <a class="nav-item nav-link" href="#" id="science">Science</a>
+                    <a class="nav-item nav-link" href="#" id="sport">Sports</a>
+                    <a class="nav-item nav-link" href="#" id="technology">Technology</a>
+                  </div>
+                  <div id="weather">
+                    <form action="" id="form">
+                       <input type="search"  id="input" placeholder="Search Weather"> 
+                       
+                    </form>
+                    <div id="weatherResult"></div>
+                </div>
+                </div>
+
+           
+              </nav>
+             
+              <div id="covidMeter">
+                
+                <div id="covidGlobal"> </div>
+                <div id="covidIndia"> </div>
+              </div>
+             
+             
+              <div id="headlineBox" >
+                               
+                         <div id="result">
+                         
+                        </div>
+
+              </div>
+
+
+           
+        </article>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+   
+   
+<script src="./Js/newsApp.js"></script>
+<script src="./Js/covid.js"></script>
+<script src="./Js/business.js"></script>
+<script src="./Js/entertainment.js"></script>
+<script src="./Js/health.js"></script>
+<script src="./Js/science.js"></script>
+<script src="./Js/sport.js"></script>
+<script src="./Js/technology.js"></script>
+<script src="./Js/weather.js"></script>
+</body>
+</html>
